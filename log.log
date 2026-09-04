@@ -1,0 +1,107 @@
+2026-08-29T08:00:12+05:30 srv-auth-01 sshd[18421]: Accepted publickey for user01 from 192.168.31.20 port 51142 ssh2 session=7f21a9 event=AUTH_SUCCESS
+2026-08-29T08:01:03+05:30 srv-auth-01 sshd[18424]: Failed password for invalid user admin from 198.51.100.24 port 44218 ssh2 event=AUTH_FAILURE
+2026-08-29T08:01:05+05:30 srv-auth-01 sshd[18425]: Failed password for invalid user admin from 198.51.100.24 port 44220 ssh2 event=AUTH_FAILURE
+2026-08-29T08:01:08+05:30 srv-auth-01 sshd[18427]: Failed password for invalid user admin from 198.51.100.24 port 44224 ssh2 event=AUTH_FAILURE
+2026-08-29T08:01:11+05:30 srv-auth-01 sshd[18429]: Failed password for invalid user admin from 198.51.100.24 port 44228 ssh2 event=AUTH_FAILURE
+2026-08-29T08:01:15+05:30 srv-auth-01 sshd[18431]: Failed password for invalid user admin from 198.51.100.24 port 44232 ssh2 event=AUTH_FAILURE
+2026-08-29T08:02:02+05:30 srv-web-01 nginx[7214]: 192.168.31.20 - - [29/Aug/2026:08:02:02 +0530] "GET / HTTP/1.1" 200 4218 request_id=8a12f
+2026-08-29T08:03:17+05:30 srv-auth-01 sshd[18444]: Accepted password for user1 from 192.168.31.25 port 52318 ssh2 session=7f21c1 event=AUTH_SUCCESS
+2026-08-29T08:04:41+05:30 srv-auth-01 sshd[18451]: Failed password for guest from 192.168.31.40 port 53122 ssh2 event=AUTH_FAILURE
+2026-08-29T08:05:09+05:30 srv-db-01 postgres[9123]: connection authorized: user=app_user database=inventory source=192.168.31.30:54812 event=DB_LOGIN_SUCCESS
+2026-08-29T08:06:33+05:30 srv-auth-01 sshd[18466]: Accepted publickey for analyst from 192.168.31.45 port 54011 ssh2 session=7f21d4 event=AUTH_SUCCESS
+2026-08-29T08:07:28+05:30 srv-auth-01 sudo[18473]: analyst : TTY=pts/2 ; PWD=/home/analyst ; COMMAND=/usr/bin/systemctl status nginx event=SUDO_COMMAND
+2026-08-29T08:08:16+05:30 srv-web-01 nginx[7221]: 192.168.31.45 - - [29/Aug/2026:08:08:16 +0530] "GET /login HTTP/1.1" 200 5821 request_id=8a13a
+2026-08-29T08:09:55+05:30 srv-auth-01 sshd[18489]: Failed password for user01 from 192.168.31.20 port 55112 ssh2 event=AUTH_FAILURE
+2026-08-29T08:10:04+05:30 srv-auth-01 sshd[18491]: Accepted password for user01 from 192.168.31.20 port 55118 ssh2 session=7f2201 event=AUTH_SUCCESS
+2026-08-29T08:11:37+05:30 srv-auth-01 sshd[18502]: Connection closed by authenticating user guest 192.168.31.40 port 53122 event=AUTH_DISCONNECT
+2026-08-29T08:12:18+05:30 srv-web-01 nginx[7234]: 203.0.113.17 - - [29/Aug/2026:08:12:18 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a14b
+2026-08-29T08:12:21+05:30 srv-web-01 nginx[7234]: 203.0.113.17 - - [29/Aug/2026:08:12:21 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a14c
+2026-08-29T08:12:24+05:30 srv-web-01 nginx[7234]: 203.0.113.17 - - [29/Aug/2026:08:12:24 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a14d
+2026-08-29T08:13:02+05:30 srv-auth-01 sshd[18519]: Failed password for invalid user test from 203.0.113.17 port 41821 ssh2 event=AUTH_FAILURE
+2026-08-29T08:13:05+05:30 srv-auth-01 sshd[18521]: Failed password for invalid user test from 203.0.113.17 port 41827 ssh2 event=AUTH_FAILURE
+2026-08-29T08:13:08+05:30 srv-auth-01 sshd[18523]: Failed password for invalid user test from 203.0.113.17 port 41831 ssh2 event=AUTH_FAILURE
+2026-08-29T08:14:16+05:30 srv-auth-01 sshd[18531]: Accepted publickey for dev from 192.168.31.55 port 56002 ssh2 session=7f2230 event=AUTH_SUCCESS
+2026-08-29T08:15:47+05:30 srv-auth-01 sudo[18544]: dev : TTY=pts/1 ; PWD=/home/dev ; COMMAND=/usr/bin/journalctl -u nginx event=SUDO_COMMAND
+2026-08-29T08:16:29+05:30 srv-db-01 postgres[9131]: connection authorized: user=app_user database=inventory source=192.168.31.30:55112 event=DB_LOGIN_SUCCESS
+2026-08-29T08:17:33+05:30 srv-auth-01 sshd[18562]: Failed password for admin from 198.51.100.77 port 46210 ssh2 event=AUTH_FAILURE
+2026-08-29T08:17:36+05:30 srv-auth-01 sshd[18564]: Failed password for admin from 198.51.100.77 port 46216 ssh2 event=AUTH_FAILURE
+2026-08-29T08:17:39+05:30 srv-auth-01 sshd[18566]: Failed password for admin from 198.51.100.77 port 46220 ssh2 event=AUTH_FAILURE
+2026-08-29T08:17:42+05:30 srv-auth-01 sshd[18568]: Failed password for admin from 198.51.100.77 port 46226 ssh2 event=AUTH_FAILURE
+2026-08-29T08:17:45+05:30 srv-auth-01 sshd[18570]: Failed password for admin from 198.51.100.77 port 46230 ssh2 event=AUTH_FAILURE
+2026-08-29T08:18:02+05:30 srv-auth-01 sshd[18573]: Accepted password for admin from 198.51.100.77 port 46234 ssh2 session=7f2241 event=AUTH_SUCCESS
+2026-08-29T08:18:44+05:30 srv-auth-01 sudo[18581]: admin : TTY=pts/3 ; PWD=/home/admin ; COMMAND=/usr/bin/id event=SUDO_COMMAND
+2026-08-29T08:19:31+05:30 srv-web-01 nginx[7251]: 192.168.31.60 - - [29/Aug/2026:08:19:31 +0530] "GET /api/profile HTTP/1.1" 200 1832 request_id=8a151
+2026-08-29T08:20:17+05:30 srv-auth-01 sshd[18594]: Accepted publickey for employee from 192.168.31.70 port 57122 ssh2 session=7f2253 event=AUTH_SUCCESS
+2026-08-29T08:21:06+05:30 srv-auth-01 sshd[18601]: Failed password for employee from 192.168.31.70 port 57128 ssh2 event=AUTH_FAILURE
+2026-08-29T08:22:41+05:30 srv-db-01 postgres[9142]: connection authorized: user=readonly database=reports source=192.168.31.75:55991 event=DB_LOGIN_SUCCESS
+2026-08-29T08:23:18+05:30 srv-web-01 nginx[7260]: 192.168.31.75 - - [29/Aug/2026:08:23:18 +0530] "GET /reports HTTP/1.1" 200 9041 request_id=8a164
+2026-08-29T08:24:55+05:30 srv-auth-01 sshd[18627]: Failed password for invalid user oracle from 203.0.113.88 port 43102 ssh2 event=AUTH_FAILURE
+2026-08-29T08:25:00+05:30 srv-auth-01 sshd[18629]: Failed password for invalid user oracle from 203.0.113.88 port 43108 ssh2 event=AUTH_FAILURE
+2026-08-29T08:25:05+05:30 srv-auth-01 sshd[18631]: Failed password for invalid user oracle from 203.0.113.88 port 43114 ssh2 event=AUTH_FAILURE
+2026-08-29T08:25:10+05:30 srv-auth-01 sshd[18633]: Failed password for invalid user oracle from 203.0.113.88 port 43120 ssh2 event=AUTH_FAILURE
+2026-08-29T08:25:15+05:30 srv-auth-01 sshd[18635]: Failed password for invalid user oracle from 203.0.113.88 port 43126 ssh2 event=AUTH_FAILURE
+2026-08-29T08:25:20+05:30 srv-auth-01 sshd[18637]: Failed password for invalid user oracle from 203.0.113.88 port 43132 ssh2 event=AUTH_FAILURE
+2026-08-29T08:26:03+05:30 srv-auth-01 sshd[18644]: Connection closed by authenticating user oracle 203.0.113.88 port 43132 event=AUTH_DISCONNECT
+2026-08-29T08:27:14+05:30 srv-auth-01 sshd[18652]: Accepted publickey for user01 from 192.168.31.20 port 58144 ssh2 session=7f2290 event=AUTH_SUCCESS
+2026-08-29T08:28:37+05:30 srv-auth-01 sudo[18661]: user01 : TTY=pts/4 ; PWD=/home/user01 ; COMMAND=/usr/bin/ls event=SUDO_COMMAND
+2026-08-29T08:29:22+05:30 srv-web-01 nginx[7279]: 192.168.31.20 - - [29/Aug/2026:08:29:22 +0530] "GET /dashboard HTTP/1.1" 200 7211 request_id=8a18a
+2026-08-29T08:30:11+05:30 srv-auth-01 sshd[18683]: Failed password for user2 from 192.168.31.90 port 59011 ssh2 event=AUTH_FAILURE
+2026-08-29T08:31:44+05:30 srv-auth-01 sshd[18691]: Accepted password for user2 from 192.168.31.90 port 59017 ssh2 session=7f22b1 event=AUTH_SUCCESS
+2026-08-29T08:32:09+05:30 srv-db-01 postgres[9158]: connection authorized: user=app_user database=inventory source=192.168.31.30:56311 event=DB_LOGIN_SUCCESS
+2026-08-29T08:33:28+05:30 srv-auth-01 sshd[18702]: Failed password for admin from 198.51.100.77 port 47101 ssh2 event=AUTH_FAILURE
+2026-08-29T08:33:31+05:30 srv-auth-01 sshd[18704]: Failed password for admin from 198.51.100.77 port 47107 ssh2 event=AUTH_FAILURE
+2026-08-29T08:33:34+05:30 srv-auth-01 sshd[18706]: Failed password for admin from 198.51.100.77 port 47113 ssh2 event=AUTH_FAILURE
+2026-08-29T08:34:42+05:30 srv-web-01 nginx[7291]: 198.51.100.77 - - [29/Aug/2026:08:34:42 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a19c
+2026-08-29T08:35:18+05:30 srv-auth-01 sshd[18721]: Failed password for invalid user root from 198.51.100.77 port 47122 ssh2 event=AUTH_FAILURE
+2026-08-29T08:35:21+05:30 srv-auth-01 sshd[18723]: Failed password for invalid user root from 198.51.100.77 port 47128 ssh2 event=AUTH_FAILURE
+2026-08-29T08:36:05+05:30 srv-auth-01 sshd[18730]: Accepted publickey for analyst from 192.168.31.45 port 60118 ssh2 session=7f22f0 event=AUTH_SUCCESS
+2026-08-29T08:37:11+05:30 srv-auth-01 sudo[18739]: analyst : TTY=pts/2 ; PWD=/home/analyst ; COMMAND=/usr/bin/ss -tulpn event=SUDO_COMMAND
+2026-08-29T08:38:49+05:30 srv-web-01 nginx[7310]: 192.168.31.45 - - [29/Aug/2026:08:38:49 +0530] "GET /admin HTTP/1.1" 403 1532 request_id=8a20f
+2026-08-29T08:39:17+05:30 srv-auth-01 sshd[18755]: Failed password for guest from 192.168.31.40 port 61212 ssh2 event=AUTH_FAILURE
+2026-08-29T08:40:33+05:30 srv-auth-01 sshd[18761]: Accepted password for employee from 192.168.31.70 port 61221 ssh2 session=7f2312 event=AUTH_SUCCESS
+2026-08-29T08:41:06+05:30 srv-db-01 postgres[9170]: connection authorized: user=readonly database=reports source=192.168.31.75:57441 event=DB_LOGIN_SUCCESS
+2026-08-29T08:42:18+05:30 srv-auth-01 sshd[18779]: Failed password for invalid user backup from 203.0.113.121 port 44201 ssh2 event=AUTH_FAILURE
+2026-08-29T08:42:22+05:30 srv-auth-01 sshd[18781]: Failed password for invalid user backup from 203.0.113.121 port 44207 ssh2 event=AUTH_FAILURE
+2026-08-29T08:42:26+05:30 srv-auth-01 sshd[18783]: Failed password for invalid user backup from 203.0.113.121 port 44213 ssh2 event=AUTH_FAILURE
+2026-08-29T08:42:30+05:30 srv-auth-01 sshd[18785]: Failed password for invalid user backup from 203.0.113.121 port 44219 ssh2 event=AUTH_FAILURE
+2026-08-29T08:42:34+05:30 srv-auth-01 sshd[18787]: Failed password for invalid user backup from 203.0.113.121 port 44225 ssh2 event=AUTH_FAILURE
+2026-08-29T08:43:12+05:30 srv-auth-01 sshd[18794]: Accepted publickey for dev from 192.168.31.55 port 58321 ssh2 session=7f2330 event=AUTH_SUCCESS
+2026-08-29T08:44:27+05:30 srv-auth-01 sudo[18803]: dev : TTY=pts/1 ; PWD=/home/dev ; COMMAND=/usr/bin/whoami event=SUDO_COMMAND
+2026-08-29T08:45:36+05:30 srv-web-01 nginx[7332]: 203.0.113.121 - - [29/Aug/2026:08:45:36 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a21a
+2026-08-29T08:46:14+05:30 srv-auth-01 sshd[18819]: Failed password for admin from 198.51.100.77 port 48211 ssh2 event=AUTH_FAILURE
+2026-08-29T08:46:18+05:30 srv-auth-01 sshd[18821]: Failed password for admin from 198.51.100.77 port 48217 ssh2 event=AUTH_FAILURE
+2026-08-29T08:46:22+05:30 srv-auth-01 sshd[18823]: Failed password for admin from 198.51.100.77 port 48223 ssh2 event=AUTH_FAILURE
+2026-08-29T08:47:09+05:30 srv-auth-01 sshd[18831]: Accepted password for admin from 198.51.100.77 port 48229 ssh2 session=7f2361 event=AUTH_SUCCESS
+2026-08-29T08:48:03+05:30 srv-auth-01 sudo[18840]: admin : TTY=pts/3 ; PWD=/home/admin ; COMMAND=/usr/bin/systemctl restart nginx event=SUDO_COMMAND
+2026-08-29T08:49:25+05:30 srv-web-01 nginx[7344]: 192.168.31.100 - - [29/Aug/2026:08:49:25 +0530] "GET /api/users HTTP/1.1" 200 12042 request_id=8a22c
+2026-08-29T08:50:47+05:30 srv-auth-01 sshd[18862]: Accepted publickey for user01 from 192.168.31.20 port 59211 ssh2 session=7f2380 event=AUTH_SUCCESS
+2026-08-29T08:51:18+05:30 srv-auth-01 sshd[18868]: Failed password for guest from 192.168.31.40 port 62111 ssh2 event=AUTH_FAILURE
+2026-08-29T08:52:09+05:30 srv-db-01 postgres[9188]: connection authorized: user=app_user database=inventory source=192.168.31.30:58122 event=DB_LOGIN_SUCCESS
+2026-08-29T08:53:41+05:30 srv-auth-01 sshd[18891]: Failed password for invalid user mysql from 203.0.113.199 port 45001 ssh2 event=AUTH_FAILURE
+2026-08-29T08:53:45+05:30 srv-auth-01 sshd[18893]: Failed password for invalid user mysql from 203.0.113.199 port 45007 ssh2 event=AUTH_FAILURE
+2026-08-29T08:53:49+05:30 srv-auth-01 sshd[18895]: Failed password for invalid user mysql from 203.0.113.199 port 45013 ssh2 event=AUTH_FAILURE
+2026-08-29T08:54:27+05:30 srv-auth-01 sshd[18902]: Accepted publickey for employee from 192.168.31.70 port 60128 ssh2 session=7f23a1 event=AUTH_SUCCESS
+2026-08-29T08:55:16+05:30 srv-auth-01 sudo[18911]: employee : TTY=pts/5 ; PWD=/home/employee ; COMMAND=/usr/bin/hostname event=SUDO_COMMAND
+2026-08-29T08:56:03+05:30 srv-web-01 nginx[7361]: 192.168.31.70 - - [29/Aug/2026:08:56:03 +0530] "GET / HTTP/1.1" 200 4218 request_id=8a23f
+2026-08-29T08:57:42+05:30 srv-auth-01 sshd[18930]: Failed password for admin from 198.51.100.77 port 49201 ssh2 event=AUTH_FAILURE
+2026-08-29T08:57:46+05:30 srv-auth-01 sshd[18932]: Failed password for admin from 198.51.100.77 port 49207 ssh2 event=AUTH_FAILURE
+2026-08-29T08:57:50+05:30 srv-auth-01 sshd[18934]: Failed password for admin from 198.51.100.77 port 49213 ssh2 event=AUTH_FAILURE
+2026-08-29T08:58:02+05:30 srv-auth-01 sshd[18938]: Accepted password for admin from 198.51.100.77 port 49219 ssh2 session=7f23d2 event=AUTH_SUCCESS
+2026-08-29T08:59:31+05:30 srv-auth-01 sshd[18949]: Connection closed by user admin 198.51.100.77 port 49219 event=AUTH_DISCONNECT
+2026-08-29T09:00:14+05:30 srv-auth-01 sshd[18955]: Accepted publickey for analyst from 192.168.31.45 port 61002 ssh2 session=7f2401 event=AUTH_SUCCESS
+2026-08-29T09:01:28+05:30 srv-web-01 nginx[7382]: 192.168.31.45 - - [29/Aug/2026:09:01:28 +0530] "GET /reports/export HTTP/1.1" 200 18742 request_id=8a24a
+2026-08-29T09:02:17+05:30 srv-db-01 postgres[9201]: connection authorized: user=readonly database=reports source=192.168.31.75:59012 event=DB_LOGIN_SUCCESS
+2026-08-29T09:03:44+05:30 srv-auth-01 sshd[18982]: Failed password for invalid user support from 203.0.113.199 port 46310 ssh2 event=AUTH_FAILURE
+2026-08-29T09:03:48+05:30 srv-auth-01 sshd[18984]: Failed password for invalid user support from 203.0.113.199 port 46316 ssh2 event=AUTH_FAILURE
+2026-08-29T09:03:52+05:30 srv-auth-01 sshd[18986]: Failed password for invalid user support from 203.0.113.199 port 46322 ssh2 event=AUTH_FAILURE
+2026-08-29T09:04:33+05:30 srv-auth-01 sshd[18994]: Accepted publickey for dev from 192.168.31.55 port 61234 ssh2 session=7f2420 event=AUTH_SUCCESS
+2026-08-29T09:05:17+05:30 srv-auth-01 sudo[19003]: dev : TTY=pts/1 ; PWD=/home/dev ; COMMAND=/usr/bin/uptime event=SUDO_COMMAND
+2026-08-29T09:06:29+05:30 srv-web-01 nginx[7401]: 203.0.113.199 - - [29/Aug/2026:09:06:29 +0530] "POST /login HTTP/1.1" 401 912 request_id=8a25b
+2026-08-29T09:07:11+05:30 srv-auth-01 sshd[19019]: Failed password for admin from 198.51.100.77 port 50311 ssh2 event=AUTH_FAILURE
+2026-08-29T09:07:15+05:30 srv-auth-01 sshd[19021]: Failed password for admin from 198.51.100.77 port 50317 ssh2 event=AUTH_FAILURE
+2026-08-29T09:08:02+05:30 srv-auth-01 sshd[19029]: Accepted password for admin from 198.51.100.77 port 50323 ssh2 session=7f2451 event=AUTH_SUCCESS
+2026-08-29T09:10:12+05:30 srv-db-01 postgres[9210]: authentication failed: user=app_user database=inventory source=203.0.113.50:52144 event=DB_LOGIN_FAILURE
+2026-08-29T09:10:18+05:30 srv-db-01 postgres[9211]: authentication failed: user=app_user database=inventory source=203.0.113.50:52145 event=DB_LOGIN_FAILURE
+2026-08-29T09:10:25+05:30 srv-db-01 postgres[9212]: authentication failed: user=app_user database=inventory source=203.0.113.50:52146 event=DB_LOGIN_FAILURE
+2026-08-29T09:10:31+05:30 srv-db-01 postgres[9213]: authentication failed: user=app_user database=inventory source=203.0.113.50:52147 event=DB_LOGIN_FAILURE
+2026-08-29T09:10:39+05:30 srv-db-01 postgres[9214]: authentication failed: user=app_user database=inventory source=203.0.113.50:52148 event=DB_LOGIN_FAILURE
